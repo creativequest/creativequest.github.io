@@ -53,6 +53,34 @@
    <![endif]-->
 <style>
 label{display: inherit;}
+.feat-links {
+    border-bottom: 1px solid;
+    font-size:20px;
+    margin: 0 5px;
+    color: #ddd;
+	 -webkit-transition:none;
+  -moz-transition: none;
+  -ms-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+.feat-links:hover{
+    border-bottom: 3px solid;
+    color: #fff;
+}
+@media screen and (max-width: 480px){
+.feat-links {
+    width: 41%;
+    margin: 25px 0px 0 5px;
+    display: inline-block;
+	border:none;
+	text-decoration:underline;
+}
+.feat-links:hover{
+    border-bottom: none;
+    color: #fff;
+}
+}
 </style>
    
    </head>
@@ -62,22 +90,22 @@ label{display: inherit;}
 
    <nav class="fh5co-nav-style-1" role="navigation" data-offcanvass-position="fh5co-offcanvass-left">
          <div class="container">
-            <div class="col-md-3 col-sm-3 col-xs-12 fh5co-logo">
-               <a href="#" class="js-fh5co-mobile-toggle fh5co-nav-toggle"><i></i></a>
+            <div class="col-md-12 col-sm-12 col-xs-12 fh5co-logo text-center">
+              <!-- <a href="#" class="js-fh5co-mobile-toggle fh5co-nav-toggle"><i></i></a>-->
                <a href="#">CQ</a>
             </div>
-            <div class="col-md-6 col-sm-6 text-center fh5co-link-wrap">
+            <!--<div class="col-md-6 col-sm-6 text-center fh5co-link-wrap">
                <ul data-offcanvass="yes">
                   <li><a href="#services" rel='scr'>Services</a></li>
                   <li><a href="#work" rel='scr'>Portfolio</a></li>
                   <li><a href="#contact" rel='scr'>Contact</a></li>
                </ul>
-            </div> 
-            <div class="col-md-3 col-sm-3 text-right fh5co-link-wrap">
+            </div>--> 
+            <!--<div class="col-md-3 col-sm-3 text-right fh5co-link-wrap">
                <ul class="fh5co-special" data-offcanvass="yes">
                   <li><a href="#contact" class="call-to-action" rel='scr'>Get Started</a></li>
                </ul>
-            </div>
+            </div>-->
          </div>
       </nav>
 
@@ -91,7 +119,7 @@ label{display: inherit;}
                         <h1 class="cover-text-lead">Say Hello to Creative Quest</h1>
                         <h2 class="cover-text-sublead">We are a small team of freelance designers, developers & marketers pooling our skills & resources to provide our clients an integrated experience and the best possible service. Take a look at our work, go through our services and get in touch with us to discuss how we can help you with your online presence.</h2>
 						<p style="color: rgba(255, 255, 255, 0.8);">If you have already made up your mind, drop us a line for a quick quote.</p>
-                        <p><a href="#contact" class="btn btn-outline btn-primary btn-md" rel='scr'>Get in Touch</a></p>
+                        <p><a href="#contact" class="btn btn-primary btn-md" rel='scr'>Get in Touch</a>&nbsp; &nbsp; <a href="#services" class="feat-links" rel='scr'>Services</a>&nbsp; &nbsp; <a class="feat-links" href="#work" rel='scr'>Work</a></p>
                      </div>
                   </div>
                </div>
