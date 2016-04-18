@@ -63,11 +63,11 @@ h2 {
 
 a {
   color: #1784fb;
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -ms-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 a:hover, a:focus, a:active {
   outline: none;
@@ -2610,7 +2610,7 @@ a:hover .lnk-icon-right {
   color: #fff;
 }
 .fh5co-footer-style-1 .fh5co-subscribe .form p {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.95);
 }
 .fh5co-footer-style-1 .fh5co-subscribe .form p:last-child {
   margin-bottom: 0;
